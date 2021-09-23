@@ -1,0 +1,116 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="cryptography" />
+            <item index="1" class="java.lang.String" itemvalue="drf-yasg-1.20.0" />
+            <item index="2" class="java.lang.String" itemvalue="decouple" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="apps.core.models.AppSubConfigHelpText.objects" />
+          <option value="django.db.models.fields.related.OneToOneField.save" />
+          <option value="django.db.models.fields.related.OneToOneField.domain" />
+          <option value="apps.core.models.CustomAccount.id" />
+          <option value="django.db.models.fields.CharField.split" />
+          <option value="django.db.models.fields.related.ForeignKey.accounting_type" />
+          <option value="django.db.models.fields.related.ForeignKey.apps_settings" />
+          <option value="apps.core.models.MetaTagGroup.objects" />
+          <option value="apps.core.models.Subscription.tag_groups" />
+          <option value="apps.core.models.MetaTag.objects" />
+          <option value="apps.core.models.WayofDelivery.id" />
+          <option value="apps.core.models.Subscription.id" />
+          <option value="django.db.models.fields.related.OneToOneField.user" />
+          <option value="apps.core.models.SubscriptionSettings.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.pk" />
+          <option value="django.db.models.fields.related.ForeignKey.subscription" />
+          <option value="apps.core.models.MetaTag.metatag_set" />
+          <option value="apps.core.models.MetaTag.id" />
+          <option value="django.db.models.fields.related.ManyToManyField.filter" />
+          <option value="apps.core.models.ReportConfig.id" />
+          <option value="apps.core.models.NotificationUser.objects" />
+          <option value="django.db.models.fields.json.JSONField.get" />
+          <option value="apps.core.models.CustomVoucher.id" />
+          <option value="apps.core.models.AMDictionary.objects" />
+          <option value="apps.user.models.UserProfile.subscriptions" />
+          <option value="apps.user.models.Company.objects" />
+          <option value="apps.user.models.TransactionLog.objects" />
+          <option value="django.db.models.fields.related.ManyToManyField.all" />
+          <option value="apps.user.models.AccountingFirm.objects" />
+          <option value="apps.user.models.TaskData.id" />
+          <option value="apps.core.models.Subscription.objects" />
+          <option value="apps.user.models.Code.objects" />
+          <option value="apps.user.models.AccountingInvitation.objects" />
+          <option value="apps.user.models.PasswordReset.objects" />
+          <option value="apps.integrations.libv3.woocommerce.models.WooCommerceSettings.objects" />
+          <option value="apps.integrations.libv3.starweb.models.StarwebSettings.objects" />
+          <option value="apps.core.models.Subscription.settings" />
+          <option value="apps.core.models.GenericArticleVariation.objects" />
+          <option value="apps.core.models.GenericArticle.objects" />
+          <option value="apps.core.abstract.automaters.GenericAutomater.handle_exception" />
+          <option value="apps.core.models.GenericCustomer.objects" />
+          <option value="apps.core.models.GenericOrder.objects" />
+          <option value="apps.integrations.lib.amazon.models.AmazonOrder.objects" />
+          <option value="apps.core.models.CustomAccount.objects" />
+          <option value="apps.core.models.CustomPaymentTerms.objects" />
+          <option value="apps.core.models.GenericInvoicePayment.objects" />
+          <option value="apps.core.models.GenericArticle.object" />
+          <option value="apps.core.abstract.clients.accounting.BaseAccountingClient.activate_account_if_not_active" />
+          <option value="apps.core.models.GenericArticle.id" />
+          <option value="apps.core.models.GenericArticleVariation.object" />
+          <option value="apps.core.models.GenericArticle.parent" />
+          <option value="apps.integrations.libv3.starweb_plus.models.StarwebSettings.objects" />
+          <option value="apps.core.models.Notification.objects" />
+          <option value="apps.integrations.lib.amazon.models.AmazonSettings.objects" />
+          <option value="eshop.models.Order.line_items" />
+          <option value="django.db.models.fields.related.ForeignKey.stripe_id" />
+          <option value="eshop.models.Order.objects" />
+          <option value="apps.integrations.lib.shopify_payment.models.ShopifyPaymentSettings.objects" />
+          <option value="apps.integrations.lib.shopify.models.ShopifySettings.objects" />
+          <option value="apps.integrations.lib.shopify_payment.models.ShopifyPaymentDetails.objects" />
+          <option value="apps.integrations.lib.prestashop.models.PrestashopSettings.objects" />
+          <option value="apps.user.models.TaskData.objects" />
+          <option value="apps.core.models.Transaction.objects" />
+          <option value="apps.core.models.AuditLog.objects" />
+          <option value="apps.user.models.WhiteList.objects" />
+          <option value="eshop.models.App.objects" />
+          <option value="type.without_ui" />
+          <option value="type.with_ui" />
+          <option value="apps.integrations.libv3.svea_basic.models.SveaBasicSettings.objects" />
+          <option value="apps.core.models.Log.objects" />
+          <option value="eshop.models.ProductDetail.objects" />
+          <option value="eshop.models.Customer.objects" />
+          <option value="eshop.models.PaymentHistory.objects" />
+          <option value="eshop.models.Payment.objects" />
+          <option value="eshop.models.Accounting.objects" />
+          <option value="django.db.models.fields.files.ImageField.url" />
+          <option value="django.db.models.fields.related.ForeignKey.slug" />
+          <option value="eshop.models.AppCategory.objects" />
+          <option value="eshop.models.OrderedAddon.objects" />
+          <option value="eshop.models.Customer.addons" />
+          <option value="django.db.models.fields.related.ForeignKey.price" />
+          <option value="faqs.models.Faq.objects" />
+          <option value="faqs.models.FaqCategory.objects" />
+          <option value="apps.integrations.lib.shopify.models.ShopifySettings.id" />
+          <option value="apps.integrations.lib.shopify.models.SHTransactions.id" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
